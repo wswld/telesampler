@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "telesampler"
+version = "0.1.0"
+description = ""
+authors = ["Sev Glumov <seva17@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = {extras = ["job-queue"], version = "^20.7"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
